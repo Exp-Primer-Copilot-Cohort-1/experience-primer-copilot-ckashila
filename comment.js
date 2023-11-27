@@ -8,4 +8,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000, 'localhost', () => {
   console.log('El servidor está funcionando en http://localhost:3000/');
+  console.log('Everything works as expected')
 });
